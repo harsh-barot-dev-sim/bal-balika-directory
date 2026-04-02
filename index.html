@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="gu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="background-animation"></div>
-    
+
     <div class="container">
         <header>
             <div class="swamishriji">|| સ્વામીશ્રીજી ||</div>
@@ -19,11 +21,21 @@
 
         <div class="action-buttons no-print">
             <button id="btn-print" onclick="window.print()" title="Print or Save as PDF">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                    <rect x="6" y="14" width="12" height="8"></rect>
+                </svg>
                 <span>Print / PDF</span>
             </button>
             <button id="btn-csv" onclick="downloadCSV()" title="Download as CSV File">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
                 <span>Download CSV</span>
             </button>
         </div>
@@ -45,11 +57,31 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td>તુલસીધામ</td><td>મગનભાઈ ગોહિલ</td><td><a href="tel:9106969214">91069 69214</a></td></tr>
-                        <tr><td>શક્તિનાથ</td><td>હસમુખભાઈ ચૌહાણ</td><td><a href="tel:9428519063">94285 19063</a></td></tr>
-                        <tr><td>ઝાડેશ્વર</td><td>જીતેન્દ્રભાઈ પટેલ</td><td><a href="tel:9998991280">99989 91280</a></td></tr>
-                        <tr><td>તવરા</td><td>જીગ્નેશભાઈ પટેલ</td><td><a href="tel:9913605689">99136 05689</a></td></tr>
-                        <tr><td>-</td><td>નરેશભાઈ લાલસા</td><td><a href="tel:9974093381">99740 93381</a></td></tr>
+                        <tr>
+                            <td>તુલસીધામ</td>
+                            <td>નગીનભાઈ રોહિત</td>
+                            <td><a href="tel:9106969214">91069 69214</a></td>
+                        </tr>
+                        <tr>
+                            <td>શક્તિનાથ</td>
+                            <td>દત્તુભાઈ ચૌહાણ</td>
+                            <td><a href="tel:9428519063">94285 19063</a></td>
+                        </tr>
+                        <tr>
+                            <td>ઝાડેશ્વર</td>
+                            <td>જીતેન્દ્રભાઈ પટેલ</td>
+                            <td><a href="tel:9998991280">99989 91280</a></td>
+                        </tr>
+                        <tr>
+                            <td>તવરા</td>
+                            <td>જીગ્નેશભાઈ પટેલ</td>
+                            <td><a href="tel:9913605689">99136 05689</a></td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>નરેશભાઈ ભલાળા</td>
+                            <td><a href="tel:9974093381">99740 93381</a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -67,20 +99,49 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td>ભરૂચ-૧ (જ્ઞાનનગર, GNFC, કાસક)</td><td>હેતલબેન વિષ્ણુભાઈ ચૌધરી</td><td><a href="tel:9327383066">93273 83066</a></td></tr>
-                        <tr><td>શક્તિનાથ</td><td>ઈલાબેન કનુભાઈ પ્રજાપતિ</td><td><a href="tel:9725029485">97250 29485</a></td></tr>
-                        <tr><td>તુલસીધામ</td><td>દિપ્તીબેન હર્ષદભાઈ પટેલ</td><td><a href="tel:8160668908">81606 68908</a></td></tr>
-                        <tr><td>અયોધ્યા નગર</td><td>ગીતાબેન ઈન્દ્રવદનભાઈ ગુર્જર</td><td><a href="tel:7984749846">79847 49846</a></td></tr>
-                        <tr><td>ઝાડેશ્વર</td><td>વંદનાબેન પ્રશાંતભાઈ ગજ્જર</td><td><a href="tel:9824392991">98243 92991</a></td></tr>
-                        <tr><td>આશ્રય, સાંઈ દર્શન</td><td>પૂજાબેન પાર્થભાઈ પટેલ</td><td><a href="tel:7284871547">72848 71547</a></td></tr>
-                        <tr><td>તવરા</td><td>સુસ્મિતાબેન મહાદેવભાઈ પટેલ</td><td><a href="tel:9429072950">94290 72950</a></td></tr>
+                        <tr>
+                            <td>માનસનગર, GNFC, આસોરારોડ</td>
+                            <td>હેતલબેન વિજયભાઈ ચોક્સી</td>
+                            <td><a href="tel:9327383066">93273 83066</a></td>
+                        </tr>
+                        <tr>
+                            <td>શક્તિનાથ</td>
+                            <td>ઈલાબેન કનુભાઈ પ્રજાપતિ</td>
+                            <td><a href="tel:9725029485">97250 29485</a></td>
+                        </tr>
+                        <tr>
+                            <td>તુલસીધામ</td>
+                            <td>દીપિકાબેન હર્ષદભાઈ પટેલ</td>
+                            <td><a href="tel:8160668908">81606 68908</a></td>
+                        </tr>
+                        <tr>
+                            <td>ચકલા</td>
+                            <td>ગીતાબેન ઈન્દ્રવદનભાઈ ગુર્જર</td>
+                            <td><a href="tel:7984749846">79847 49846</a></td>
+                        </tr>
+                        <tr>
+                            <td>ઝાડેશ્વર</td>
+                            <td>વંદનાબેન પ્રશાંતભાઈ ગજ્જર</td>
+                            <td><a href="tel:9824392991">98243 92991</a></td>
+                        </tr>
+                        <tr>
+                            <td>આશ્રય, ચાવજ</td>
+                            <td>પૂજાબેન પાર્થભાઈ પટેલ</td>
+                            <td><a href="tel:7284871547">72848 71547</a></td>
+                        </tr>
+                        <tr>
+                            <td>તવરા</td>
+                            <td>સુચિતાબેન મહાદેવભાઈ પટેલ</td>
+                            <td><a href="tel:9429072950">94290 72950</a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        
+
     </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
